@@ -1,0 +1,105 @@
+// BEM approach for styling:
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #d9d9d9;
+
+  &__icons {
+    display: flex;
+    column-gap: 24px;
+    padding: 20px 16px;
+  }
+
+  &__tabs {
+    display: flex;
+    background-color: #e9ecef;
+    align-items: center;
+    padding: 0 26px;
+    height: 50px;
+  }
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: #e6f1ff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  .bx {
+    font-size: 16px;
+  }
+}
+
+.tab {
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  padding: 0 14px;
+
+  &--active {
+    color: #2570ca;
+  }
+}
+
+.notes {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.note {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  padding: 16px;
+  margin-bottom: 10px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  &__type {
+    font-weight: bold;
+    color: #2570ca;
+  }
+
+  &__tag {
+    background-color: #f1f3f5;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  &__content {
+    margin-bottom: 10px;
+  }
+
+  &__association {
+    margin-bottom: 10px;
+  }
+
+  &__association-link {
+    color: #2570ca;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+  }
+  &__author,
+  &__date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4px;
+  }
+}

@@ -1,0 +1,23 @@
+.ant-tabs-nav {
+  background: #e9ecef;
+  margin-bottom: 24px !important;
+}
+.ant-tabs {
+  .ant-tabs-tabpane {
+    padding: 0 16px;
+  }
+  .ant-tabs-tab {
+    margin: 0 !important;
+    padding: 16px;
+    font-weight: 600;
+    .ant-tabs-tab-btn {
+      color: #343a40;
+    }
+    &.ant-tabs-tab-active {
+      background-color: #fff;
+    }
+  }
+}
+.ant-tabs-nav-wrap {
+  white-space: unset !important;
+}
