@@ -4,10 +4,10 @@
 
 
 # Clone the repository
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/abrahamsankutty/Recruit-crm-dashboard-react.git
 
 # Navigate into the directory
-cd your-repo-name
+cd Recruit-crm-dashboard-react
 
 # Install dependencies
 npm install
